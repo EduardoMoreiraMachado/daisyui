@@ -1,0 +1,8 @@
+* DEPENDÊNCIAS 
+
+- Tailwind CSS: lê os arquivos html, js e outros gerando os estlos correspondentes e escrevendo em css
+    - npm install -D tailwindcss
+    - npx tailwind init
+
+- daisyUI: framework para estilização de componentes
+    - npm i daisyui

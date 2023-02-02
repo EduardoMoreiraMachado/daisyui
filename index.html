@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./main.js" defer type="module"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.0/dist/full.css" rel="stylesheet" type="text/css" />
+
+    <title>daisyUI</title>
+</head>
+<body>
+    <header>
+        <div class="input__container">
+            <input type="text" placeholder="Type here" class="input input-bordered input-success w-full max-w-xs" />
+        </div>
+    </header>
+    <main>
+        <div class="product__container">
+            <div class="card w-96 bg-base-100 shadow-xl">
+                <figure><img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/377586/01/sv01/fnd/BRA/w/1000/h/1000/fmt/png" alt="Shoes" /></figure>
+                <div class="card-body">
+                <h2 class="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="rating">
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        </div>
+        <div class="countdown__container">
+            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+                <span class="countdown font-mono text-5xl">
+                    <span class="counter_element" style="--value:15;"></span>
+                </span>
+                days
+                </div> 
+                <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+                <span class="countdown font-mono text-5xl">
+                    <span class="counter_element" style="--value:10;"></span>
+                </span>
+                hours
+                </div> 
+                <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+                <span class="countdown font-mono text-5xl">
+                    <span class="counter_element" style="--value:24;"></span>
+                </span>
+                min
+                </div> 
+                <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+                <span class="countdown font-mono text-5xl">
+                    <span class="counter_element" style="--value:44;"></span>
+                </span>
+                sec
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="copyright__container">
+            <span>Copyright 2023 © | Eduardo Moreira</span>
+        </div>
+    </footer>
+</body>
+</html>
