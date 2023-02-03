@@ -21,16 +21,37 @@ body {
 }
 
 header {
-    padding-top: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    padding: 6vh;
 }
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 4vh;
+    width: 100vw;
 }
 
 footer {
-    padding-bottom: 8vh;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding: 4vh;
+}
+
+.input {
+    width: 30vw;
+}
+
+.carousel {
+    width: 35vw;
+}
+
+.carousel-item {
+    width: 30vw;
 }
